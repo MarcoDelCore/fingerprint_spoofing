@@ -36,11 +36,7 @@ The project followed a structured development and validation pipeline:
 Among all tested models, the most promising candidate identified during validation was the **Gaussian Mixture Model (GMM) with 8 components and diagonal covariance matrices**.
 
 This model offered the best balance of discriminative power and calibration, achieving on the validation set:
-* [cite_start]`minDCF`: 0.1463 [cite: 1050]
-* [cite_start]`actDCF`: 0.1809 [cite: 1051]
+* `minDCF`: 0.1463
+* `actDCF`: 0.1809
 
-[cite_start]On the final evaluation set, the 8-component diagonal GMM confirmed its excellent performance (achieving `minDCF` 0.203 and `actDCF` 0.221 [cite: 1195, 1215]). [cite_start]The **score-level fusion** model also proved to be highly competitive and well-calibrated[cite: 1241, 1242, 1256].
-
-## 🎓 Acknowledgements
-
-[cite_start]This project was developed for the Machine Learning and Pattern Recognition course at Politecnico di Torino[cite: 2, 3, 4, 5], taught by **Prof. [cite_start]Sandro Cumani**[cite: 7].
+On the final evaluation set, the 8-component diagonal GMM confirmed its excellent performance (achieving `minDCF` 0.203 and `actDCF` 0.221).
